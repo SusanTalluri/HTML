@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+                color: rgb(78, 13, 71);
+            }
+
+            h2 {
+                text-align: center;
+                border-radius: 10px;
+                border: 1px solid blueviolet;
+                padding: 15px;
+            }
+
+            img {
+                border-radius: 10px;
+                width: 100%;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+
+            button {
+                width: 100%;
+                background:blueviolet ;
+                color: white;
+                border: none;
+                padding: 15px;
+                font-size: 20px;
+                border-radius: 30px;
+                box-shadow: 0 15px 20px rgba(0, 0, 0.2);
+                margin: 20px 0;
+            
+            }
+
+            footer {
+                text-align: center;
+                font-size: 12px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>
+            Yoga
+</h1>
+<h2>
+    Discipline
+</h2>
+<img src="https://static01.nyt.com/images/2016/12/02/well/move/yoga_body_images-slide-HNVD/yoga_body_images-slide-HNVD-blog480.jpg" alt="" width="300">
+<p>
+    Yoga is a generic term for physical, mental and spiritual disciplines, originated from ancient India. It is a spiritual and ascetic discipline including breath control, simple meditation and adoption of specific body postures, practiced for health and relaxation.
+    <br />
+    <br />
+    <a href="https://en.wikipedia.org/wiki/Yoga">
+        Learn more on Wikipedia
+    </a>
+    
+        </p>
+        <button>
+            Go to a Yoga class
+        </button>
+        <footer>
+            <a href="http://www.shecodes.io"> Coded by Shecodes </a>
+            
+        </footer>
+        <script>
+            function subscibe() {
+                let name = prompt("What is your name?")
+                prompt("What is your email address?");
+
+                alert(`Thanks,${name} We'll be in touch!`);
+            }
+
+           let button = document.querySelector("button");
+           button.addEventListener("click",subscibe)
+        </script>
+    </body>
+</html>
